@@ -9,7 +9,7 @@ Active learning is a machine learning approach where the algorithm selectively c
 
 ## About the Project
 
-In this project, I have implemented an active learning framework using the GCN (Graph Convolutional Network) query technique from the Active Learning GCN paper. The primary goal was to train a ResNet18 model on the CIFAR-10 dataset with a fraction of the data while achieving comparable accuracy to a model trained on the full dataset.
+In this project, I have implemented an active learning framework using the GCN (Graph Convolutional Network) query technique. The primary goal was to train a ResNet18 model on the CIFAR-10 dataset with a fraction of the data while achieving comparable accuracy to a model trained on the full dataset.
 
 ### Key Features
 
@@ -24,7 +24,7 @@ In this project, I have implemented an active learning framework using the GCN (
 2. **Initial Training**: Train a ResNet18 model on the entire CIFAR-10 dataset to establish a baseline.
 3. **Active Learning**:
    - Implement the GCN query technique to actively select the most informative samples.
-   - Train the ResNet18 model using only 20% of the CIFAR-10 dataset.
+   - Train the ResNet18 model by actively sampling data points.
 4. **Evaluation**: Compare the performance of the model trained with active learning to the baseline model.
 
 ### Results
